@@ -11,11 +11,11 @@ def dfs(graph, v, visited):
             dfs(graph, i, visited)
 
 # 각 노드 정보
-graph1 = [[], [2, 3, 8], [1, 7], [1, 4, 5], [3, 5], [3, 4], [7], [2, 6, 8],
+graph = [[], [2, 3, 8], [1, 7], [1, 4, 5], [3, 5], [3, 4], [7], [2, 6, 8],
           [1, 7]]
 
 # 방문 전이므로 False로 표현
-visited2 = [False] * 9
+visited = [False] * 9
 
 # DFS 호출
-dfs(graph1, 1, visited2)
+dfs(graph, 1, visited)
